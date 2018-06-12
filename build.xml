@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Dibujar_con_KeyEvent" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Dibujar con KeyEvent.</description>
+<project name="6._Evento_KeyEvent_-_Dibujando_figuras" default="default" basedir=".">
+    <description>Builds, tests, and runs the project 6. Evento KeyEvent - Dibujando figuras.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="Dibujar_con_KeyEvent-impl.jar">
+        <target name="run" depends="6._Evento_KeyEvent_-_Dibujando_figuras-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
